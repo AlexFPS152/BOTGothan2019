@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.login("NjE1ODIyNDQ4MTc2MjY3MjY1.XbhNSQ.gPBXap-4bNZjoYql8GOLMEjCcoo");
+client.login("NjE1ODIyNDQ4MTc2MjY3MjY1.XfJ5TA.o12yDAUhQVEbINglDgX9Gmcmv0Q");
 
 client.on('guildMemberAdd', member =>{
     member.guild.channels.get('632844709248892947').send('**Bienvenue sur le serveur de Gothan City !** ' + member.user + ' **Nous sommes désormais ! ** ' + member.guild.memberCount);
